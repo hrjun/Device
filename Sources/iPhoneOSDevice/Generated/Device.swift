@@ -259,7 +259,7 @@ public struct Device: Identifiable, Hashable, CaseIterable {
     /// iPhone 16 Plus
     public static let iPhone17_4 = Device(id: "iPhone17,4", model: "iPhone 16 Plus")
     /// iPhone 16e
-    public static let iPhone17_6 = Device(id: "iPhone17,5", model: "iPhone 16e")
+    public static let iPhone17_5 = Device(id: "iPhone17,5", model: "iPhone 16e")
     /// iPad 2
     public static let iPad2_1 = Device(id: "iPad2,1", model: "iPad 2")
     /// iPad 2
