@@ -30,7 +30,8 @@ public struct Device: Identifiable, Hashable, CaseIterable {
         } else if let simulator = Device.simulators.first(where: { $0.id == id }) {
             self = simulator
         } else {
-            self = .unknown
+            //self = .unknown
+            self = Device(id: id, model: id)
         }
     }
 
